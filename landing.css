@@ -1,0 +1,86 @@
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    min-height: 100vh;
+    font-family: roboto, sans-serif;
+}
+
+.header-hero-wrapper {
+    background-color: #1F2937;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    margin: 12px;
+    justify-content: space-around;
+    font-size: 18px;
+}
+.header-logo {
+    height: 50px;
+    width: auto;
+}
+
+.header-links {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 10px;
+}
+
+.header-links a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    margin: 100px;
+    margin-left: 300px ;
+    margin-right: 300px;
+}
+
+.Estrada-card {
+    align-self: center;
+    margin-right: 20px;
+}
+
+h1 { 
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+    padding: 0;
+    margin: 0;
+}
+
+img {
+
+    justify-content: right;
+    max-width: 500px;
+    max-height: 500px;
+}
+
+.secure website.webp {
+   
+    justify-content: right;
+    height: 500px;
+    will-change: 500px;
+
+}
+
+.hero.text {
+    color: #E5E7EB;
+}
+
+.sign-up-button {
+background-color: #3882F6;
+color: #E5E7EB;
+font-weight: 900;
+padding: 5px 20px;
+border-radius: 5px;
+border: 0;
+}
