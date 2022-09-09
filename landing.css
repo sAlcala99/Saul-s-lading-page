@@ -65,22 +65,123 @@ img {
 }
 
 .secure website.webp {
-   
     justify-content: right;
     height: 500px;
     will-change: 500px;
-
 }
 
 .hero.text {
     color: #E5E7EB;
 }
 
-.sign-up-button {
-background-color: #3882F6;
-color: #E5E7EB;
-font-weight: 900;
-padding: 5px 20px;
-border-radius: 5px;
-border: 0;
+
+.Sign-up-button {
+    background: #3882F6;
+    font-weight: 900;
+    padding: 5px 20px;
+    border-radius: 5px;
+    border: 0;
+}
+ 
+.card-wrapper {
+    margin: 100px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    margin-top: -50px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+ }
+
+ .card-image {
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    border-radius: 10px;
+    border: solid #3882F6;
+ }
+
+ .card-subject {
+    text-align: center;
+    margin-top: -15px;
+ }
+
+ .quote-wrapper {
+    background-color: #E5E7EB;
+ }
+
+ .quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+    padding-left: 400px;
+    padding-right: 400px;
+ }
+
+ .quote-text {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    font-weight: 900;
+    align-self: flex-end;
+}
+
+.call-to-action-wrapper {
+   margin: 100px; 
+}
+
+.call-to-action-container {
+    background-color: #3882F6;
+    display: flex;
+    color: #E5E7EB;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 10px;
+    padding: 50px;
+}
+
+h3 {
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.call-to-action-text {
+    color: #E5E7EB;
+    padding: 0px;
+    margin: 0px;
+}
+
+.Sign-up-button.second {
+    color: #E5E7EB;
+    border: 2px  solid #E5E7EB;
+}
+
+
+.footer-wrapper {
+    background-color: #1F2937;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    justify-content: center;
+    font-size: 18px;
+    color: #E5E7EB; 
 }
